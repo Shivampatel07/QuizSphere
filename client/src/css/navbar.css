@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.Logo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input {
+    border: solid gray 2px;
+    border-radius: 5px;
+    width: 20rem;
+    padding: .3rem 2rem;
+}
+
+.profile-icon img {
+    width: 3.2rem;
+    cursor: pointer;
+}

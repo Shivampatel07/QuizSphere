@@ -26,3 +26,31 @@
     width: 3.2rem;
     cursor: pointer;
 }
+
+.sub-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-navbar ul {
+    padding: .5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.sub-navbar ul li {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.821);
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 0 .3rem;
+    border-bottom: 2px solid white;
+}
+
+.sub-navbar ul li:hover {
+    border-bottom: 2px solid blue;
+}
